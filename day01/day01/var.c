@@ -1,22 +1,21 @@
 #include <stdio.h>
 
 main() {
-	// 변수 선언 - 자료형 변수이름;
-	int a;  // 정수형 변수 a를 선언
+	//변수 선언 - 자료형 변수이름;
+	int a;     //정수형 변수 a를 선언
 	int b;
-	int c = -5; // 선언과 동시 초기화
+	int c = -5; //선언과 동시 초기화
 
-	a = 7; // 변수이름 = 값 대입
+	a = 7;     //변수이름 = 값(대입) : 초기화
 	b = 6;
 
-	a = a + 1;   // 오른쪽 연산의 계산 이 왼쪽 a 로 적용
+	a = a + 1;
 
 	//자료형의 크기
-	printf("int 형=%dByte\n", sizeof(int)); // 4byte-32bit
+	printf("int 형 = %dByte\n", sizeof(int)); //4byte-32bit
 
 	printf("%d\n", a);
 	printf("%d\n", b);
 	printf("%d\n", c);
-	printf("선영이 나이는 %d살이고, 현수 나이는 %d살입니다.", a, b); 
-
+	printf("선영이 나이는 %d살이고, 현수 나이는 %d살입니다.", a, b);
 }
